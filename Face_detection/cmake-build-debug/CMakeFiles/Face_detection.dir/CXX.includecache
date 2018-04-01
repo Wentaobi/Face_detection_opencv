@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wentao/CLionProjects/Face_detection/main.cpp
+iostream
+-
+stdio.h
+-
+opencv2/objdetect.hpp
+-
+opencv2/videoio.hpp
+-
+opencv2/highgui
+-
+opencv2/imgproc.hpp
+-
+
